@@ -1,0 +1,200 @@
+@import url(./setting/palette.css);
+@import url(./setting/fontello.css);
+@import url(./setting/normalize.css);
+@import url(./setting/reset.css);
+@import url(./setting/font.css);
+
+/* 숨김 컨텐츠 */
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 기본 스타일 */
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 본문 스타일 */
+/* body {
+  color: #212121;
+  font-family:'GT America' "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+} */
+footer{
+  color:white;
+}
+
+header h1,ul,li{
+  display:inline-block;
+
+}
+header{
+  max-width:100%;
+  margin: auto;
+  background-color: #000000;
+  padding:0 30px;
+  min-height:88px;
+  line-height:88px;
+  font-size:24px;
+  font-weight: 400px;
+
+}
+
+.submit-button{
+  width:230px;
+  height: 50px;
+  background-color: black;
+  color:white;
+  border:1px solid white;
+  border-radius: 7px;
+
+}
+
+.sign-button{
+  width:140px;
+  height:50px;
+  background-color:#4C5FD5;
+  color:white;
+  border-radius: 7px;
+
+
+}
+
+
+/* top bar */
+.logo-container{
+  margin:0 92px;
+
+ }
+
+.logo{
+  color:#dadbf1;
+  position:relative;
+}
+.logo img{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+.logo-text{
+  padding-left:40px;
+}
+
+
+.member{
+  float:right; 
+}
+
+.searchbar-container{
+  display:flex;
+  flex-flow: column nowrap;
+  max-width:100%;
+  height:397px;
+  justify-content: center;
+  align-items:center;
+  background-color:#dadbf1;
+}
+
+.searchbar-title{
+  width:720px;
+  height:120px;
+  text-align: center;
+  line-height: 120px;
+  font-size:80px;
+  margin:0 0 16px 0;
+  /* background-color: yellow; */
+  letter-spacing: -4px;
+}
+
+
+
+.form-group-input{
+  width:720px;
+  height:66px;
+  padding:16px;
+  border-radius: 4px;
+}
+
+
+.main-selector{
+  height:970px;
+  padding:170px;
+}
+.main-selector div{
+  display: block;
+  position:relative;
+  padding-left: 130px;
+}
+
+.main-selector dl{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-selector dt{
+  font-size:24px;
+  font-weight: 700;
+  margin:0 0 16px;
+}
+.main-selector dd{
+
+  font-size:24px;
+  margin:0 0 20px;
+}
+.main-selector img{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.main-selector a{
+  font-size:20px;
+  color:#4C5FD5;
+}
+
+
+.main-selector div{
+  width:50%;
+  margin:0 0 48px 0; 
+}
+
+.footer-container{
+  height: 402px;
+  background-color: black;
+  display:flex;
+  justify-content: space-around;
+}
+
+footer{
+  overflow:hidden;
+}
+
+footer li{
+  display:block;
+  /* background-color:yellow; */
+  font-size:16px;
+  line-height: 24px;
+}
+
+footer h4{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 48px 0 16px;
+}
+
+footer .Copyright{
+  transform:translateY(50%);
+  /* background-color: yellow; */
+
+}
